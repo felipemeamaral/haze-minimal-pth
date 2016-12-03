@@ -1844,19 +1844,22 @@ span.rbb {
 	font-weight:initial !important
 }
 img[alt="Snatches"] {
-	height:15px;
-	padding-right:15px;
-	width:0
+  background:url("https://i.imgur.com/qNWsRe8.png") no-repeat scroll 0 0 transparent;
+  height:15px;
+  padding-right:15px;
+  width:0
 }
 img[alt="Seeders"] {
-	height:15px;
-	padding-right:11px;
-	width:0
+  background:url("https://i.imgur.com/Y1JRS7X.png") no-repeat scroll 0 0 transparent;
+  height:15px;
+  padding-right:11px;
+  width:0
 }
 img[alt="Leechers"] {
-	height:15px;
-	padding-right:11px;
-	width:0
+  background:url("https://i.imgur.com/Jbhygxk.png") no-repeat scroll 0 0 transparent;
+  height:15px;
+  padding-right:11px;
+  width:0
 }
 img[src="static/common/symbols/donor.png"] {
 	background:url("https://i.imgur.com/9ETtDEW.png") no-repeat scroll 0 0 transparent;
@@ -1912,7 +1915,4 @@ td.edition_info {
 }
 table.layout tbody tr {
     border: none;
-}
-td.number_column {
-    text-align: center;
 }
