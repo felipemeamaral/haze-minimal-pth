@@ -1841,16 +1841,19 @@ span.rbb {
   font-weight:initial !important
 }
 img[alt="Snatches"] {
+  background:url("https://i.imgur.com/qNWsRe8.png") no-repeat scroll 0 0 transparent;
   height:15px;
   padding-right:15px;
   width:0
 }
 img[alt="Seeders"] {
+  background:url("https://i.imgur.com/Y1JRS7X.png") no-repeat scroll 0 0 transparent;
   height:15px;
   padding-right:11px;
   width:0
 }
 img[alt="Leechers"] {
+  background:url("https://i.imgur.com/Jbhygxk.png") no-repeat scroll 0 0 transparent;
   height:15px;
   padding-right:11px;
   width:0
@@ -1909,7 +1912,4 @@ td.edition_info {
 }
 table.layout tbody tr {
     border: none;
-}
-td.number_column {
-    text-align: center;
 }
