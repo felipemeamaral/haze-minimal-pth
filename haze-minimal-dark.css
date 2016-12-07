@@ -1043,13 +1043,13 @@ ul.poll li.graph {
   width:28px;
   height:28px;
   background:url('https://i.imgur.com/5s3SHAm.png') no-repeat center center;
-  filter:invert(100%)
+  filter:brightness(50%);
 }
 .hide_torrents {
   width:28px;
   height:28px;
   background:url('https://i.imgur.com/kcOajKp.png') no-repeat center center;
-  filter:invert(100%)
+  filter:brightness(50%);
 }
 .show_torrents_link {
   border:none;
