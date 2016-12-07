@@ -24,7 +24,7 @@ body {
 	overflow:auto
 }
 table tbody,.main_column,.sidebar,.box,.thin,.pad,#threadpoll,#poll {
-	color:#bababa
+	color:#dadada
 }
 h1,h2,h3,h4 {
 	font-weight:300
@@ -226,6 +226,7 @@ ul.thin li {
 	background: url('https://i.imgur.com/sLr2Ckv.png') no-repeat top left;background-size: 250px 58px;
 	display:block;
 	margin-left:-14px
+
 }
 #header a:active,#header a:focus,#logo a:hover,#logo a:active,logo a:focus {
 	border:none;
@@ -321,29 +322,28 @@ ul.thin li {
 }
 #nav_staff {
 	position:absolute;
-	margin:-100px 0 0 713px !important
+	margin: -90px 0 0 687px !important;
 }
 #nav_staff a {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	height:42px !important;
-	width:50px !important;
-	color:transparent !important
-}
-#nav_staff a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 0 !important;
-	color: #a1a1a1;
+	height:38px!important;
+	margin-top:11px;
+	width:50px!important;
+	color:#fff!important;
+	background:url() no-repeat top left;
+	background-size:38px
 }
 #nav_staff a:hover {
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 83px !important
+	font-weight:400!important;
+	color:rgba(255,255,255,0.8)!important;
+	background-color:transparent!important;
+	margin-top:10px!important
 }
 #nav_staff a:active {
-	background:url('https://i.imgur.com/LMa8mAH.png') !important;
-	background-position:0 41px !important
+	background:url() no-repeat top left;
+	background-size:42px
 }
 #userinfo {
 	position:relative;
@@ -357,7 +357,7 @@ ul.thin li {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	margin:-101px 0 0 765px;
+	margin:-65px 0 0 761px;
 	float:right;
 	height:42px;
 	line-height:42px;
@@ -373,60 +373,64 @@ ul.thin li {
 	color:transparent
 }
 #userinfo_major li {
-	margin:0 0 0 -2px !important
+	margin:0 0 0 -2px!important
 }
 #userinfo_major #nav_upload a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 0
+	background:url() no-repeat top left;
+	background-size:38px;
+	color:#fff;
+	margin-left: -23px;
+	margin-right: 3px;
 }
 #userinfo_major #nav_upload a:hover {
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 84px
+	color:rgba(255,255,255,0.8);
+	background-size:38px
 }
 #userinfo_major #nav_upload a:active {
-	background:url('https://i.imgur.com/hot0Jzc.png');
-	background-position:0 42px
+	color:#fff;
+	background-size:38px
 }
 #userinfo_major #nav_invite a {
-	filter: brightness(50%);
-	background:url('https://i.imgur.com/RU2imw6.png');
-	background-position:0 0
+	background:url() no-repeat top left;
+	background-size:38px;
+	background-position:0 0;
+	color:#fff;
+	margin-right: 10px;
 }
 #userinfo_major #nav_invite a:hover {
-	background:url('https://i.imgur.com/RU2imw6.png');
-	background-position:0 84px
+	color:rgba(255,255,255,0.8);
+	background-size:38px
 }
 #userinfo_major #nav_invite a:active {
-	background:url('https://i.imgur.com/RU2imw6.png');
-	background-position:0 42px
+	color:#fff;
+	background-size:38px
 }
 #userinfo_major #nav_store a {
-	margin-left:-100px
-}
-#userinfo_major #nav_store a {
-	background:url('https://i.imgur.com/IRVh2R9.png');
+	margin-left:-100px;
+	background:url(https://i.imgur.com/IRVh2R9.png);
 	background-position:0 0
 }
 #userinfo_major #nav_store a:hover {
-	background:url('https://i.imgur.com/IRVh2R9.png');
+	background:url(https://i.imgur.com/IRVh2R9.png);
 	background-position:0 84px
 }
 #userinfo_major #nav_store a:active {
-	background:url('https://i.imgur.com/IRVh2R9.png');
-	background-position:0 42px
+	background:url(https://i.imgur.com/IRVh2R9.png);
+	background-position:0 38px
 }
 #userinfo_major #nav_donate a {
-	background:url('https://i.imgur.com/KrVOpw5.png');
-	background-position:0 0
+	background:url() no-repeat top left;
+	background-size:38px;
+	background-position:0 0;
+	color:#fff;
 }
 #userinfo_major #nav_donate a:hover {
-	background:url('https://i.imgur.com/KrVOpw5.png');
-	background-position:0 84px
+	color:rgba(255,255,255,0.8);
+	background-size:38px
 }
 #userinfo_major #nav_donate a:active {
-	background:url('https://i.imgur.com/KrVOpw5.png');
-	background-position:0 42px
+	color:#fff;
+	background-size:38px
 }
 #extra1 {
 	-moz-box-sizing:border-box;
@@ -711,16 +715,16 @@ ul.thin li {
 	padding:8px 11px 8px 8px
 }
 .autocomplete-selected {
-	color:#3b3b3b;
+	color:#afafaf;
 	background:#fff
 }
 .autocomplete-selected strong {
 	font-weight:300;
-	color:rgba(59,59,59,0.9) !important
+	color:#afafaf !important
 }
 .autocomplete-suggestions strong {
 	font-weight:300;
-	color:#ffdaba
+	color:#afafaf !important;
 }
 #alerts {
 	width:900px;
@@ -1714,16 +1718,13 @@ a[onclick^="remove_selection"] .brackets:before,a[onclick^="remove_selection"] .
 strong.important_text,.invalid,.warning,.error,.new {
 	color:#fff !important;
 	font-weight:600 !important;
-	text-shadow:0 0 2px rgba(255,255,255,0.8)
 }
 strong.important_text_alt {
 	color:#82ff6e !important;
-	text-shadow:0 0 2px rgba(130,255,110,0.8)
 }
 span[style="color: red;"] {
 	color:#fff !important;
 	font-weight:600 !important;
-	text-shadow:0 0 2px rgba(255,255,255,0.8)
 }
 #rules .box.pad.rule_table {
 	padding:0 !important
@@ -1844,22 +1845,22 @@ span.rbb {
 	font-weight:initial !important
 }
 img[alt="Snatches"] {
-  background:url("https://i.imgur.com/qNWsRe8.png") no-repeat scroll 0 0 transparent;
-  height:15px;
-  padding-right:15px;
-  width:0
+	background:url(https://i.imgur.com/qNWsRe8.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:15px;
+	width:0
 }
 img[alt="Seeders"] {
-  background:url("https://i.imgur.com/Y1JRS7X.png") no-repeat scroll 0 0 transparent;
-  height:15px;
-  padding-right:11px;
-  width:0
+	background:url(https://i.imgur.com/Y1JRS7X.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:11px;
+	width:0
 }
 img[alt="Leechers"] {
-  background:url("https://i.imgur.com/Jbhygxk.png") no-repeat scroll 0 0 transparent;
-  height:15px;
-  padding-right:11px;
-  width:0
+	background:url(https://i.imgur.com/Jbhygxk.png) no-repeat scroll 0 0 transparent;
+	height:15px;
+	padding-right:11px;
+	width:0
 }
 img[src="static/common/symbols/donor.png"] {
 	background:url("https://i.imgur.com/9ETtDEW.png") no-repeat scroll 0 0 transparent;
@@ -1915,4 +1916,7 @@ td.edition_info {
 }
 table.layout tbody tr {
     border: none;
+}
+td.number_column {
+    text-align: center;
 }
