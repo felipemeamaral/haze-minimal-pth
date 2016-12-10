@@ -1403,14 +1403,18 @@ ul .invitetree {
 }
 .poll .graph .left_poll {
   width:9px;
-  background:rgba(255,255,255,0.4)
+  background:rgba(255,255,255,0.4);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .poll .graph .center_poll {
   background:rgba(255,255,255,0.4)
 }
 .poll .graph .right_poll {
   width:11px;
-  background:rgba(255,255,255,0.4)
+  background:rgba(255,255,255,0.4);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .breadcrumbs {
   font-weight:300 !important
