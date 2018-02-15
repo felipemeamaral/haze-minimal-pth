@@ -322,7 +322,7 @@ ul.thin li {
 }
 #nav_staff {
 	position:absolute;
-	margin: -90px 0 0 687px !important;
+	margin: -90px 0 0 585px !important;
 }
 #nav_staff a {
 	-moz-box-sizing:border-box;
@@ -357,7 +357,7 @@ ul.thin li {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	margin:-65px 0 0 761px;
+	margin: -65px 0 0 658px;
 	float:right;
 	height:42px;
 	line-height:42px;
@@ -392,6 +392,7 @@ ul.thin li {
 }
 #userinfo_major #nav_bonus a {
     color: #fff;
+    padding-right: 50px
 }
 #userinfo_major #nav_invite a {
 	background:url() no-repeat top left;
