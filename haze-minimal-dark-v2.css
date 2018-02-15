@@ -390,6 +390,9 @@ ul.thin li {
 	color:#fff;
 	background-size:38px
 }
+#userinfo_major #nav_bonus a {
+    color: #fff;
+}
 #userinfo_major #nav_invite a {
 	background:url() no-repeat top left;
 	background-size:38px;
